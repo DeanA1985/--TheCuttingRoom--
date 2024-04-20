@@ -25,7 +25,7 @@
     text-align: center;
     color: white;
     padding-top: 180px;
-    
+
 }
 
 .banner-text h1 {
@@ -44,15 +44,16 @@
 
 
 }
+
 .banner-button a {
     width: 180px;
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
-    color:white;
+    color: white;
     border: .5px solid white;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     border-radius: 12px;
     position: relative;
     z-index: 1;
@@ -73,12 +74,22 @@
 
 }
 
-.banner-button a:hover span{
-    width:100%;
+
+.banner-button a:hover span {
+    width: 100%;
 }
 
-.banner-button a:hover{
+.banner-button a:hover {
     color: black;
 
 }
-    
+#sideNav{
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: black;
+    z-index: 2;
+
+}
