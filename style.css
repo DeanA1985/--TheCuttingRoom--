@@ -157,24 +157,39 @@ nav ul li a {
 .features{
     flex-basis: 50%;
 }
+
+.text h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    margin-left: 60px;
+    color: #423d33;
+}
+
 .features-img{
     flex-basis: 50%;
     margin: auto;
+    padding-bottom: 60px;
+    
 }
 .features-img img{
-    width: 70%;
-    border-radius: 10px;
+    width: 65%;
+    border-radius: 20px;   
+    opacity: 75%;
+    
 }
 .features h1{
     text-align: left;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 300;
     color: #423d33;
+    margin-left: 60px;
+    font-family: "Montserrat", sans-serif;
 }
 .features-desc{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    margin-left: 60px;
 }
 .feature-icon .fa{
     width: 50px;
@@ -182,13 +197,14 @@ nav ul li a {
     font-size: 30px;
     line-height: 50px;
     border-radius: 8px;
-    color: #009688;
-    border: 1px solid #009688;
+    color: #423d33;
+    border: 2px solid #423d33;
 }
 .feature-text p{
     padding: 0 20px;
     text-align: initial;
     font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
 }
 @media screen and (max-width: 770px){
    .title-text h1{
@@ -213,11 +229,12 @@ nav ul li a {
 .title-text {
     text-align: center;
     padding-bottom: 70px;
+    
 }
 
 .title-text p {
     margin: auto;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     text-underline-offset: 10px;
     color: rgb(63, 63, 63);
@@ -226,11 +243,16 @@ nav ul li a {
     font-family: "Montserrat", sans-serif;
     z-index: 1;
     display: inline-block;
+    padding-bottom: 30px;
+    
 }
 
 .title-text h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Montserrat", sans-serif;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 70px;
 }
 
 #service {
@@ -240,7 +262,7 @@ nav ul li a {
 }
 
 .service-box {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
