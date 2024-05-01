@@ -16,8 +16,8 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <!--- Flaticon-->
-    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <!--FontAwesome Icons-->
+    <script src="https://kit.fontawesome.com/a60f002c85.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -32,7 +32,7 @@
                 <a href="#"><span></span>Book Here</a>
             </div>
         </div>
-
+        <!-- Side Navigation -->
     </section>
     <div id="sideNav">
         <nav>
@@ -51,81 +51,126 @@
         <img src="IMG/icons8-menu-bar-64.png" id="menu">
     </div>
 
-    <!--Services-->
-
-    <section id="service">
+    <!--About Us-->
+    <section id="feature">
         <div class="title-text">
-            <p><u>SERVICES</u></p>
+            <p><u>ABOUT US</u></p>
+            <h1>Why Choose Us</h1>
         </div>
-        <div class="service-box">
-            <div class="single-service">
-                <img src="IMG/pic-1.jpg">
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Hair Styling</h3>
-                    <hr>
-                    <p> Undercuts, French crop, Fades, whatever your style, we can will put our personal signature on
-                        it.
-                        We have experience totalling over 25 years, and staff who range from young to mature who can
-                        work with
-                        you to get the style you need.</p>
+        <div class="feature-box">
+            <div class="features">
+                <h1>We Have Experienced Staff</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa-regular fa-scissors"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend
+                            ligula.</p>
+                    </div>
+                </div>
+                <h1>Pre Booking Online</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-check-square-o"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend
+                            ligula.</p>
+                    </div>
+                </div>
+                <h1>Affordable Cost</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-inr"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend
+                            ligula.</p>
+                    </div>
                 </div>
             </div>
-            <div class="single-service">
-                <img src="IMG/pic-2.jpg">
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Beard Trim</h3>
-                    <hr>
-                    <p>We understand the statement that having a well-groomed appearance makes, we can cater to your own
-                        individual style and taste. Whether you are going for a long beard or a soul patch. Sit in our chair 
-                        for the best approach to your facial hair.</p>
+
+
+            <!--Services-->
+
+            <section id="service">
+                <div class="title-text">
+                    <p><u>SERVICES</u></p>
                 </div>
-            </div>
-            <div class="single-service">
-                <img src="IMG/pic-3.jpg">
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Hair Cut</h3>
-                    <hr>
-                    <p>We are incomplete without providing this service, this is at the heart of what we do best, which is 
-                        making men feel complete. With a haircut we can instill the confidence in you for any occasion.</p>
+                <div class="service-box">
+                    <div class="single-service">
+                        <img src="IMG/pic-1.jpg">
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <h3>Hair Styling</h3>
+                            <hr>
+                            <p> Undercuts, French crop, Fades, whatever your style, we can will put our
+                                personal signature on
+                                it.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <img src="IMG/pic-2.jpg">
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <h3>Beard Trim</h3>
+                            <hr>
+                            <p> We can cater to your own
+                                individual style and taste. Whether you are going for a long beard or a soul
+                                patch.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <img src="IMG/pic-3.jpg">
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <h3>Hair Cut</h3>
+                            <hr>
+                            <p>We are incomplete without providing this service, this is at the heart of
+                                what we do best.</p>
+
+                        </div>
+                    </div>
+                    <div class="single-service">
+                        <img src="IMG/pic-4.jpg">
+                        <div class="overlay"></div>
+                        <div class="service-desc">
+                            <h3>Dry Shampoo</h3>
+                            <hr>
+                            <p>Our range of dry shampoos. will keep your hair feeling fresh without water,
+                                leaving with a long
+                                lasting scent.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="single-service">
-                <img src="IMG/pic-4.jpg">
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Dry Shampoo</h3>
-                    <hr>
-                    <p>this is test under description of barber foundation this is test under description of barber
-                        foundation.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    </div>
-
-    
+            </section>
 
 
 
 
 
-    <script>
-        var menuBtn = document.getElementById("menuBtn")
-        var sideNav = document.getElementById("sideNav")
-        var menu = document.getElementById("menu")
 
-        menuBtn.onclick = function () {
 
-            if (sideNav.style.right == "-250px") {
-                sideNav.style.right = "0";
-            } else {
-                sideNav.style.right = "-250px";
-            }
-        }
-    </script>
+
+
+
+            <script>
+                var menuBtn = document.getElementById("menuBtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById("menu")
+
+                menuBtn.onclick = function () {
+
+                    if (sideNav.style.right == "-250px") {
+                        sideNav.style.right = "0";
+                    } else {
+                        sideNav.style.right = "-250px";
+                    }
+                }
+            </script>
 
 
 

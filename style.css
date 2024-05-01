@@ -139,6 +139,72 @@ nav ul li a {
     }
 }
 
+/*--ABOUT US---*/
+
+#feature {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.feature-box{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #423d33;
+}
+.features-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #009688;
+    border: 1px solid #009688;
+}
+.feature-text p{
+    padding: 0 20px;
+    text-align: initial;
+    font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 770px){
+   .title-text h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width: 100%;
+    }
+}
+
 
 
 /*--SERVICES---*/
@@ -231,20 +297,20 @@ hr {
 }
 
 .service-desc p {
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
 }
 
 .service-desc h3 {
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
 
 }
 
 .single-service:hover .service-desc {
-    bottom: 40%;
+    bottom: 30%;
     opacity: 1;
 
 }
@@ -257,6 +323,7 @@ hr {
 
     .service-desc p {
         font-size: 12px;
+
     }
 
     hr {
@@ -264,6 +331,6 @@ hr {
     }
 
     .single-service:hover .service-desc {
-        bottom: 25% !important;
+        bottom: 40% !important;
     }
 }
