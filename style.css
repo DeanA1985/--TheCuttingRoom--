@@ -146,7 +146,7 @@ nav ul li a {
     padding: 70px 0;
 }
 
-.feature-box{
+.feature-box {
     width: 100%;
     margin: auto;
     display: flex;
@@ -154,30 +154,35 @@ nav ul li a {
     align-items: center;
     text-align: center;
 }
-.features{
+
+.features {
     flex-basis: 50%;
 }
 
-.text h1{
+.text h1 {
     font-family: "Montserrat", sans-serif;
-    font-weight:600;
+    text-align: justify;
+    font-weight: 600;
     margin-left: 60px;
     color: #423d33;
+    padding-bottom: 40px;
 }
 
-.features-img{
+.features-img {
     flex-basis: 50%;
     margin: auto;
     padding-bottom: 60px;
-    
+
 }
-.features-img img{
+
+.features-img img {
     width: 65%;
-    border-radius: 20px;   
+    border-radius: 20px;
     opacity: 75%;
-    
+
 }
-.features h1{
+
+.features h1 {
     text-align: left;
     margin-bottom: 10px;
     font-weight: 300;
@@ -185,13 +190,15 @@ nav ul li a {
     margin-left: 60px;
     font-family: "Montserrat", sans-serif;
 }
-.features-desc{
+
+.features-desc {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
     margin-left: 60px;
 }
-.feature-icon .fa{
+
+.feature-icon .fa {
     width: 50px;
     height: 50px;
     font-size: 30px;
@@ -200,24 +207,33 @@ nav ul li a {
     color: #423d33;
     border: 2px solid #423d33;
 }
-.feature-text p{
+
+.feature-text p {
     padding: 0 20px;
     text-align: initial;
     font-family: "Montserrat", sans-serif;
     margin-left: 20px;
 }
-@media screen and (max-width: 770px){
-   .title-text h1{
+
+@media screen and (max-width: 770px) {
+    .title-text h1 {
         font-size: 35px;
     }
-    .features{
+
+    .features {
         flex-basis: 100%;
     }
-    .features-img{
+
+    .features-img {
         flex-basis: 100%;
     }
-    .features-img img{
-        width: 100%;
+
+    .features-img img {
+        width: 70%;
+    }
+
+    .text h1 {
+        text-align: initial;
     }
 }
 
@@ -229,7 +245,7 @@ nav ul li a {
 .title-text {
     text-align: center;
     padding-bottom: 70px;
-    
+
 }
 
 .title-text p {
@@ -244,7 +260,7 @@ nav ul li a {
     z-index: 1;
     display: inline-block;
     padding-bottom: 30px;
-    
+
 }
 
 .title-text h1 {
@@ -356,3 +372,91 @@ hr {
         bottom: 40% !important;
     }
 }
+
+/*--TEAM---*/
+
+
+#team {
+    width: 100%;
+    padding: 70px 0;
+    
+
+}
+
+.info h4 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    
+}
+
+.info p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.title-text team p {
+
+    margin: auto;
+    font-size: 40px;
+    font-weight: 500;
+    text-underline-offset: 10px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    z-index: 1;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    padding: 0 10px;
+  }
+
+  /* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+    /* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+    padding-bottom: 45px;
+
+}
+
+.container h2{ 
+ font-family: "Montserrat", sans-serif;
+ font-weight: 700;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ color: #423d33;
+}
+
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background-color: #423d33;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
