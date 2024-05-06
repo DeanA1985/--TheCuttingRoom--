@@ -221,63 +221,35 @@
         </section>
 
         <!--Appointments-->
-        <section id="appointment">
-            <div class="title-text appointment">
-                <p><u>APPOINTMENTS</u></p>
-
-                <div class="container">
-                    <div class="container-time">
-                        <h2 class="heading">Opening Times</h2>
-                        <h3 class="heading-days">Monday - Friday</h3>
-                        <p> 9am - 9pm</p>
-                        <h3 class="heading days">Saturday & Sunday</h3>
-                        <p>10am-10pm</p>
-
-                        <hr>
-
-                        <h6 class="heading phone">Call Us : 07944 004 999</h6>
-
-                        </div>
-
-                        <div class="container-form">
-                            <form action="#">
-                                <h2 class="heading heading brown">Online Booking Form</h2>
-
-
-                                <div class="form-field">
-                                    <p>Your Name</p>
-                                    <input type="text" placeholder="Your Name">
-                                </div>
-                                <div class="form-field">
-                                    <p>Your email</p>
-                                    <input type="email" placeholder="Your Email">
-                                </div>
-                                <div class="form-field">
-                                    <p>Date</p>
-                                    <input type ="date">
-                                </div>
-                                <div class="form-field">
-                                    <p>Time</p>
-                                    <input type ="time">
-                                </div>
-                                <div class="form field">
-                                    <p>Barber</p>
-                                    <select name ="select" id="#">
-                                        <option value ="Rossi">Rossi Merloni</option>
-                                        <option value="Stefano">Stefano Garibaldi</option>
-                                        <option value="Luca">Luca Primadonna</option>
-                                    </select>
-                                </div>
-                                <button class ="btn">Submit Booking</button>
-                            </form>
-                        </div>
-
+        
+            <section id="appointments">
+                <div class="form">
+                    <div class ="form-text">
+                        <h1><span><img src="IMG/art-1.png" alt="decoration"></span> Booking Form <span><img src="IMG/art-1.png" alt="decoration"></span></h1>
                     </div>
-                </div>
+                    <div class="main-form">
+                        <form action="index.php" method="get">
+                            <div>
+                                <span>Your full name</span>
+                                <input type="text" name="name" id="name" placeholder="Write your name here..." required>
+                            </div>
+                            <div>
+                                <span>Your email address</span>
+                                <input type="email" name="name" id="name" placeholder="Write your email here..." required> 
+                            </div>
+                            <div>
+                                <!-- <---this is the select option--->
+                                <span>Select Barber</span>
+                                <select name="barber" id="barber" required>
+                                    <option value="">---Barber---</option>
+                                    <option value="Rossi Merloni">Rossi Merloni</option>
+                                    <option value="Stefano Garibaldi">Stefano Garibaldi</option>
+                                    <option value="Luca Primadonna">Luca Primadonna</option>
 
-            </div>
-            
-        </section>
+                    
+                </div>
+            </section>
+        
 
         
 

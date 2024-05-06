@@ -486,4 +486,69 @@ hr {
     }
   }
 
+  /*APPOINTMENTS*/
 
+  #appointment {
+    width: 100%;
+    padding:70px 0;
+  }
+
+  .title-text appointment p{
+
+    margin: auto;
+    font-size: 40px;
+    font-weight: 500;
+    text-underline-offset: 10px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    z-index: 1;
+    display: inline-block;
+    padding-bottom: 30px;
+
+  }
+
+  .apptcontainer{
+    background-color: #b79367;
+    margin: 200px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .apptcontainer-time{
+    background-color: #bda485 ;
+    padding: 50px;
+    outline: 2px dotted #fff;
+    outline-offset: -30px;
+    text-align: center;
+  }
+
+  .apptcontainer-time h2{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    text-underline-offset: 10px;
+    
+
+  }
+  .apptcontainer-time h3{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 200;
+    padding-top: 10px;
+  }
+
+  .apptcontainer-time p{
+    font-family: "Montserrat", sans-serif;
+    color:#fff;
+    font-weight: 200;
+    padding-top:10px;
+  }
+
+  .apptcontainer-time h6{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 20px;
+  }
