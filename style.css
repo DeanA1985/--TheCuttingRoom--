@@ -423,7 +423,7 @@ hr {
 
   /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
 
 
 }
@@ -437,12 +437,26 @@ hr {
 
 .container h2{ 
  font-family: "Montserrat", sans-serif;
- font-weight: 700;
+ font-weight: normal;
  padding-top: 20px;
  padding-bottom: 10px;
  color: #423d33;
 }
 
+.container h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.container h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight:lighter;
+    font-size: 10px;
+
+}
 
 .button {
     border: none;
@@ -455,8 +469,21 @@ hr {
     cursor: pointer;
     width: 80%;
     font-family: "Montserrat", sans-serif;
+    font-size: 15px;
 
 }
 
+    .button:hover {
+        background-color: #000000;
+      }
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 770px) {
+    .column {
+      width: 100%;
+      display: flexbox;
+    }
+  }
 
 
