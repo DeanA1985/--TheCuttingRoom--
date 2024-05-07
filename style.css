@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-family: "Montserrat", sans-serif;
+}
 
 #banner {
 
@@ -53,7 +56,6 @@
     padding: 12px 0;
     color: white;
     border: .5px solid white;
-    font-family: "Montserrat", sans-serif;
     border-radius: 12px;
     position: relative;
     z-index: 1;
@@ -105,7 +107,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -160,7 +161,6 @@ nav ul li a {
 }
 
 .text h1 {
-    font-family: "Montserrat", sans-serif;
     text-align: justify;
     font-weight: 600;
     margin-left: 60px;
@@ -188,7 +188,6 @@ nav ul li a {
     font-weight: 300;
     color: #423d33;
     margin-left: 60px;
-    font-family: "Montserrat", sans-serif;
 }
 
 .features-desc {
@@ -211,7 +210,6 @@ nav ul li a {
 .feature-text p {
     padding: 0 20px;
     text-align: initial;
-    font-family: "Montserrat", sans-serif;
     margin-left: 20px;
 }
 
@@ -256,7 +254,6 @@ nav ul li a {
     color: rgb(63, 63, 63);
     font-weight: bold;
     position: relative;
-    font-family: "Montserrat", sans-serif;
     z-index: 1;
     display: inline-block;
     padding-bottom: 30px;
@@ -265,7 +262,6 @@ nav ul li a {
 
 .title-text h1 {
     font-size: 40px;
-    font-family: "Montserrat", sans-serif;
     text-align: left;
     margin-left: 60px;
     margin-top: 70px;
@@ -336,13 +332,11 @@ hr {
 
 .service-desc p {
     font-size: 15px;
-    font-family: "Montserrat", sans-serif;
     font-weight: 200;
 }
 
 .service-desc h3 {
     font-size: 15px;
-    font-family: "Montserrat", sans-serif;
     font-weight: 200;
 
 }
@@ -385,13 +379,11 @@ hr {
 
 .info h4 {
 
-    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     
 }
 
 .info p {
-    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     
     
@@ -406,7 +398,6 @@ hr {
     color: rgb(63, 63, 63);
     font-weight: bold;
     position: relative;
-    font-family: "Montserrat", sans-serif;
     z-index: 1;
     display: inline-block;
     padding-bottom: 30px;
@@ -436,7 +427,6 @@ hr {
 }
 
 .container h2{ 
- font-family: "Montserrat", sans-serif;
  font-weight: normal;
  padding-top: 20px;
  padding-bottom: 10px;
@@ -444,7 +434,6 @@ hr {
 }
 
 .container h4{
-    font-family: "Montserrat", sans-serif;
     font-weight:bold;
     font-size: 20px;
     padding-top: 10px;
@@ -452,7 +441,6 @@ hr {
     
 }
 .container h5{
-    font-family: "Montserrat", sans-serif;
     font-weight:lighter;
     font-size: 10px;
 
@@ -468,7 +456,6 @@ hr {
     text-align: center;
     cursor: pointer;
     width: 80%;
-    font-family: "Montserrat", sans-serif;
     font-size: 15px;
 
 }
