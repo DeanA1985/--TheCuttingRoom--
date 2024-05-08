@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-html{
+body{
     font-family: "Montserrat", sans-serif;
 }
 
@@ -110,6 +110,7 @@ nav ul li a {
 
 }
 
+/* Menu Styles */
 #menuBtn {
     width: 50px;
     height: 50px;
@@ -129,7 +130,7 @@ nav ul li a {
     margin-top: 15px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .banner-text h1 {
         font-size: 35px;
     }
@@ -213,7 +214,7 @@ nav ul li a {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .title-text h1 {
         font-size: 35px;
     }
@@ -347,7 +348,7 @@ hr {
 
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .single-service {
         flex-basis: 100%;
         margin-bottom: 30px;
@@ -466,7 +467,7 @@ hr {
 
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .column {
       width: 100%;
       display: flexbox;
@@ -483,6 +484,7 @@ hr {
   .form {
     max-width: 500px;
     margin: 0 auto;
+    background-color: bisque;
     
     
   }
