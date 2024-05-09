@@ -4,9 +4,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Montserrat", sans-serif;
+
 }
 
 #banner {
@@ -90,7 +93,7 @@ body{
     width: 250px;
     height: 100vh;
     position: fixed;
-    right: -250;
+    right: -250px;
     top: 0;
     background: black;
     z-index: 2;
@@ -374,20 +377,20 @@ hr {
 #team {
     width: 100%;
     padding: 70px 0;
-    
+
 
 }
 
 .info h4 {
 
     font-weight: 300;
-    
+
 }
 
 .info p {
     font-size: 15px;
-    
-    
+
+
 }
 
 .title-text team p {
@@ -404,45 +407,50 @@ hr {
     padding-bottom: 30px;
 }
 
-/* Three columns side by side */
-.column {
-    float: left;
-    width: 30%;
-    margin-bottom: 60px;
-    margin-left: 20px;
-    padding: 0 10px;
-  }
 
-  /* Add some shadows to create a card effect */
-.card {
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
 
+
+/* Team Cards Section Styles */
+.row {
+    display: flex;
+    gap: 16px;
 
 }
 
-    /* Some left and right padding inside the container */
+.card {
+    width: 30%;
+    margin: 0 auto 60px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 300px;
+}
+
+/* Some left and right padding inside the container */
 .container {
     padding: 0 16px;
     padding-bottom: 45px;
 
 }
 
-.container h2{ 
- font-weight: normal;
- padding-top: 20px;
- padding-bottom: 10px;
- color: #423d33;
+.container h2 {
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #423d33;
 }
 
-.container h4{
-    font-weight:bold;
+.container h4 {
+    font-weight: bold;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
 }
-.container h5{
-    font-weight:lighter;
+
+.container h5 {
+    font-weight: lighter;
     font-size: 10px;
 
 }
@@ -461,30 +469,34 @@ hr {
 
 }
 
-    .button:hover {
-        background-color: #000000;
-      }
+.button:hover {
+    background-color: #000000;
+}
 
 
-/* Display the columns below each other instead of side by side on small screens */
+/* Styles for smaller screens - 768px*/
 @media screen and (max-width: 768px) {
-    .column {
-      width: 100%;
-      display: flexbox;
+    .row {
+        flex-direction: column;
     }
-  }
 
-  /*APPOINTMENTS*/
+    .card {
+        width: 100%;
+    }
+}
 
-  #appointment {
+/*APPOINTMENTS*/
+
+#appointment {
     width: 100%;
-    padding:70px 0;
-  }
+    padding: 70px 0;
+}
 
-  .form {
+.form {
     max-width: 500px;
+    max-height: fit-content;
     margin: 0 auto;
     background-color: bisque;
-    
-    
-  }
+
+
+}
