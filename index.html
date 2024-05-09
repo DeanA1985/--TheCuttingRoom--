@@ -259,6 +259,8 @@
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
+        var navItems = document.getElementsByClassName("nav-item")
+        sideNav.style.right = "-250px"
 
         menuBtn.onclick = function () {
 
@@ -266,6 +268,11 @@
                 sideNav.style.right = "0";
             } else {
                 sideNav.style.right = "-250px";
+            }
+        }
+        for (var i = 0; i < navItems.length; i++) {
+            navItems[i].onclick = function () {
+                sideNav.style.right = "-250px"
             }
         }
     </script>
