@@ -29,8 +29,8 @@
             <h1>THE CUTTING ROOM</h1>
             <p>DEFINE YOUR STYLE</p>
             <div class="banner-button">
-                <a href="#"><span></span>Find Your Style</a>
-                <a href="#"><span></span>Book Here</a>
+                <a href="#service"><span></span>Find Your Style</a>
+                <a href="#appointments"><span></span>Book Here</a>
             </div>
         </div>
         <!-- Side Navigation -->
@@ -38,11 +38,11 @@
     <div id="sideNav">
         <nav>
             <ul>
-                <li><a class="nav-item" href="#">HOME</a></li>
-                <li><a class="nav-item" href="#">ABOUT US</a></li>
+                <li><a class="nav-item" href="#banner">HOME</a></li>
+                <li><a class="nav-item" href="#feature">ABOUT US</a></li>
                 <li><a class="nav-item" href="#">OUR SERVICES</a></li>
                 <li><a class="nav-item" href="#">BARBERS</a></li>
-                <li><a class="nav-item" href="#">APPOINTMENTS</a></li>
+                <li><a class="nav-item" href="#">BOOKING</a></li>
 
 
             </ul>
@@ -222,37 +222,44 @@
 
     <!--Appointments-->
     <section id="appointments">
-        <div class="form">
+        <div class="title-text">
+            <p><u>BOOKINGS</u></p>
+        </div>
+        <div class="form-wrapper">
+            <img src="IMG/art-1.png" alt="decoration">
             <form action="#">
-                <h1>Online Booking Form</h1>
-                <div class="form field 1">
-                    <h2>Your Name</h2>
-                    <input type="text" placeholder="Your Name">
+                <h2>Online Booking Form</h2>
+                <div class="field-wrapper">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" />
                 </div>
-                <div class="form field 2">
-                    <h2>Your Name</h2>
-                    <input type="email" placeholder="Your Email">
+                <div class="field-wrapper">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" />
                 </div>
-                <div class="form field 3">
-                    <h2>Date</h2>
-                    <input type="date">
+                <div class="field-wrapper">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" />
                 </div>
-                <div class="form field 4">
-                    <h2>Time</h2>
-                    <input type="time">
+                <div class="field-wrapper">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" />
                 </div>
-                <div class="form field 5">
-                    <h2>Barber</h2>
-                    <select name="select" id="#">
+                <div class="field-wrapper">
+                    <label for="barber">Barber</label>
+                    <select name="select" id="barber">
                         <option value="Rossi Merloni">Rossi Merloni</option>
                         <option value="Stefano Garibaldi">Stefano Garibaldi</option>
                         <option value="Luca Primadonna">Luca Primadonna</option>
                     </select>
                 </div>
-
-                <button class="btn">Submit Booking</button>
+                <input type="submit" class="btn" value="Submit Booking" />
             </form>
+            <img src="IMG/art-1.png" alt="decoration">
         </div>
+
+
+
     </section>
     <!-- JAVASCRIPT FOR menubtn -->
     <script>

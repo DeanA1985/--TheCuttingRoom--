@@ -487,16 +487,65 @@ hr {
 
 /*APPOINTMENTS*/
 
-#appointment {
+#appointments{
     width: 100%;
     padding: 70px 0;
+    background: url("IMG/cuttingroombanner.gif") no-repeat center/cover;
+    
 }
 
-.form {
-    max-width: 500px;
-    max-height: fit-content;
+#appointments p{
+    color: white;
+}
+
+
+.form-wrapper {
     margin: 0 auto;
-    background-color: bisque;
+    max-width: 500px;
+    padding: 70px 30px;
+    background-color: rgba(40, 39, 39, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border: 2px dotted white;
+}
+
+
+form {
+    
+    /* max-height: fit-content; */
+    text-align: center;
+    padding: 8px;
+    color: white;
+
+
+}
+
+form h2 {
+    padding-bottom: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
+}
+
+form .btn{
+
+    /* display: block; */
+
+}
+/* Place form label above input field */
+/* Media Query for Form */
+
+@media screen and (max-width: 768px) {
+
+    .field-wrapper {
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
 
 
 }
