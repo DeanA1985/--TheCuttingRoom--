@@ -490,7 +490,8 @@ hr {
 #appointments{
     width: 100%;
     padding: 70px 0;
-    background: url("IMG/cuttingroombanner.gif") no-repeat center/cover;
+    background: url("IMG/slide-2.jpg") no-repeat center/cover;
+    
     
 }
 
@@ -502,13 +503,13 @@ hr {
 .form-wrapper {
     margin: 0 auto;
     max-width: 500px;
-    padding: 70px 30px;
+    padding: 70px 100px;
     background-color: rgba(40, 39, 39, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    border: 2px dotted white;
+    border: 1px dotted white;
 }
 
 
@@ -523,16 +524,43 @@ form {
 }
 
 form h2 {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-weight: 500;
     margin-top: 20px;
     color: #fff;
 }
 
+form h5{
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
 form .btn{
+
+    background-color: #000000;
+    border-radius: 100px;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    cursor: pointer;
+
+
 
     /* display: block; */
 
+}
+
+form.btn :hover{
+    background-color: black;
 }
 /* Place form label above input field */
 /* Media Query for Form */
@@ -548,4 +576,25 @@ form .btn{
     }
 
 
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
