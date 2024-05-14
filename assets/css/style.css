@@ -14,7 +14,7 @@ body {
 /* HERO Section */
 #hero {
 
-    background: url(IMG/gradientbanner2.gif);
+    background: url("../img/gradientbanner2.gif");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -490,7 +490,7 @@ hr {
 #appointments{
     width: 100%;
     padding: 70px 0;
-    background: url("IMG/slide-2.jpg") no-repeat center/cover;
+    background: url("../img/slide-2.jpg") no-repeat center/cover;
     
     
 }
