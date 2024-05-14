@@ -11,8 +11,8 @@ body {
     font-family: "Montserrat", sans-serif;
 
 }
-
-#banner {
+/* HERO Section */
+#hero {
 
     background: url(IMG/gradientbanner2.gif);
     background-size: cover;
@@ -27,31 +27,31 @@ body {
     left: 0%;
 }
 
-.banner-text {
+.hero-text {
     text-align: center;
     color: white;
     padding-top: 180px;
 
 }
 
-.banner-text h1 {
+.hero-text h1 {
     font-size: 70px;
     font-family: "Days One", sans-serif;
 
 }
 
-.banner-text p {
+.hero-text p {
     font-size: 30px;
     font-family: "Days One", sans-serif;
 }
 
-.banner-button {
+.hero-button {
     margin: 70px auto 0;
 
 
 }
 
-.banner-button a {
+.hero-button a {
     width: 180px;
     text-decoration: none;
     display: inline-block;
@@ -66,7 +66,7 @@ body {
 
 }
 
-.banner-button a span {
+.hero-button a span {
     width: 0%;
     height: 100%;
     position: absolute;
@@ -79,16 +79,16 @@ body {
 
 }
 
-
-.banner-button a:hover span {
+/* Hover Effects for Hero Buttons */
+.hero-button a:hover span {
     width: 100%;
 }
 
-.banner-button a:hover {
+.hero-button a:hover {
     color: black;
 
 }
-
+/* Side Navigation Styles */
 #sideNav {
     width: 250px;
     height: 100vh;
@@ -113,7 +113,7 @@ nav ul li a {
 
 }
 
-/* Menu Styles */
+/* Menu Button Styles */
 #menuBtn {
     width: 50px;
     height: 50px;
@@ -134,11 +134,11 @@ nav ul li a {
 }
 
 @media screen and (max-width: 768px) {
-    .banner-text h1 {
+    .hero-text h1 {
         font-size: 35px;
     }
 
-    .banner-btn a {
+    .hero-btn a {
         display: block;
         margin: 20px auto;
     }
@@ -146,12 +146,12 @@ nav ul li a {
 
 /*--ABOUT US---*/
 
-#feature {
+#about {
     width: 100%;
     padding: 70px 0;
 }
 
-.feature-box {
+.about-box {
     width: 100%;
     margin: auto;
     display: flex;
@@ -298,7 +298,7 @@ nav ul li a {
     width: 100%;
     border-radius: 7px;
 }
-
+/* Overlay Styles for Service boxes */
 .overlay {
     width: 100%;
     height: 100%;
@@ -310,11 +310,11 @@ nav ul li a {
     opacity: 0;
     transition: 1s;
 }
-
+/* Overlay Hover Effect */
 .single-service:hover .overlay {
     opacity: 1;
 }
-
+/* Text for Service  */
 .service-desc {
     width: 80%;
     position: absolute;
@@ -582,6 +582,7 @@ form.btn :hover{
 
 footer {
     height: 150px;
+    background-color: bisque;
 }
 
 .social-networks{

@@ -23,12 +23,13 @@
 
 
 <body>
-    <section id="banner">
-        <img src="IMG/logo3.png" class="logo">
-        <div class="banner-text">
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="IMG/logo3.png" class="logo" alt="cuttingroomlogo">
+        <div class="hero-text">
             <h1>THE CUTTING ROOM</h1>
             <p>DEFINE YOUR STYLE</p>
-            <div class="banner-button">
+            <div class="hero-button">
                 <a href="#service"><span></span>Find Your Style</a>
                 <a href="#appointments"><span></span>Book Here</a>
             </div>
@@ -38,29 +39,27 @@
     <div id="sideNav">
         <nav>
             <ul>
-                <li><a class="nav-item" href="#banner">HOME</a></li>
-                <li><a class="nav-item" href="#feature">ABOUT US</a></li>
-                <li><a class="nav-item" href="#service">OUR SERVICES</a></li>
-                <li><a class="nav-item" href="#team">BARBERS</a></li>
-                <li><a class="nav-item" href="#appointments">BOOKING</a></li>
-
-
+                <li><a class="nav-item" href="#hero">HOME</a></li>
+                <li><a class="nav-item" href="#about">ABOUT US</a></li>
+                <li><a class="nav-item" href="#service">SERVICES</a></li>
+                <li><a class="nav-item" href="#team">OUR BARBERS</a></li>
+                <li><a class="nav-item" href="#appointments">BOOKINGS</a></li>
             </ul>
         </nav>
     </div>
     <div id="menuBtn">
-        <img src="IMG/icons8-menu-bar-64.png" id="menu">
+        <img src="IMG/icons8-menu-bar-64.png" id="menu" alt="hamburger menu icon">
     </div>
 
     <!--About Us-->
-    <section id="feature">
+    <section id="about">
         <div class="title-text">
             <p><u>ABOUT US</u></p>
         </div>
         <div class="text">
             <h1><u>Why Choose Us?</u></h1>
         </div>
-        <div class="feature-box">
+        <div class="about-box">
             <div class="features">
                 <h1>A Service With An Added Personal Touch</h1>
                 <div class="features-desc">
@@ -112,13 +111,12 @@
                             your paying for quality and there is a distinct difference in the service you will get at
                             the
                             Cutting Room as opposed to your other high street barber.
-
                         </p>
                     </div>
                 </div>
             </div>
             <div class="features-img">
-                <img src="IMG/pexels-alexandre-saraiva-carniato-583650-5337959 (1).jpg">
+                <img src="IMG/manwithscissors.jpg" alt="man smiling with scissors">
             </div>
         </div>
     </section>
@@ -130,7 +128,7 @@
         </div>
         <div class="service-box">
             <div class="single-service">
-                <img src="IMG/pic-1.jpg">
+                <img src="IMG/pic-1.jpg" alt="man getting hair styled">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Hair Styling</h3>
@@ -142,7 +140,7 @@
                 </div>
             </div>
             <div class="single-service">
-                <img src="IMG/pic-2.jpg">
+                <img src="IMG/pic-2.jpg" alt="man getting beard trim">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Beard Trim</h3>
@@ -154,25 +152,26 @@
                 </div>
             </div>
             <div class="single-service">
-                <img src="IMG/pic-3.jpg">
+                <img src="IMG/pic-3.jpg" alt="man getting hair cut">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Hair Cut</h3>
                     <hr>
                     <p>We are incomplete without providing this service, this is at the heart of
-                        what we do best.</p>
-
+                        what we do best.
+                    </p>
                 </div>
             </div>
             <div class="single-service">
-                <img src="IMG/pic-4.jpg">
+                <img src="IMG/pic-4.jpg" alt="dry shampoo">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Dry Shampoo</h3>
                     <hr>
                     <p>Our range of dry shampoos. will keep your hair feeling fresh without water,
                         leaving with a long
-                        lasting scent.</p>
+                        lasting scent.
+                    </p>    
                 </div>
             </div>
         </div>
@@ -193,8 +192,6 @@
                     </div>
                 </div>
 
-
-
                 <div class="card">
                     <img src="IMG/team-2.jpg" alt="Stefano">
                     <div class="container">
@@ -203,8 +200,6 @@
                         <h5><button class="button">Make Booking</button></h5>
                     </div>
                 </div>
-
-
 
                 <div class="card">
                     <img src="IMG/team-4.jpg" alt="Luca">
@@ -235,19 +230,19 @@
                 <h5> Sat ~ Sun 10am - 6pm</h5>
                 <div class="field-wrapper">
                     <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" />
+                    <input type="text" id="name" name="name" placeholder="Your Name">
                 </div>
                 <div class="field-wrapper">
                     <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" />
+                    <input type="email" id="email" name="email" placeholder="Your Email">
                 </div>
                 <div class="field-wrapper">
                     <label for="date">Date</label>
-                    <input type="date" id="date" name="date" />
+                    <input type="date" id="date" name="date">
                 </div>
                 <div class="field-wrapper">
                     <label for="time">Time</label>
-                    <input type="time" id="time" name="time" />
+                    <input type="time" id="time" name="time">
                 </div>
                 <div class="field-wrapper">
                     <label for="barber">Barber</label>
@@ -257,12 +252,10 @@
                         <option value="Luca Primadonna">Luca Primadonna</option>
                     </select>
                 </div>
-                <input type="submit" class="btn" value="SUBMIT BOOKING" />
+                <input type="submit" class="btn" value="SUBMIT BOOKING">
             </form>
             <img src="IMG/art-1.png" alt="decoration">
         </div>
-
-
 
     </section>
 
