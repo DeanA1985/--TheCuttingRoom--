@@ -40,7 +40,7 @@ body {
 
 }
 
-.hero-text p {
+.hero-text h2 {
     font-size: 30px;
     font-family: "Days One", sans-serif;
 }
@@ -140,6 +140,17 @@ nav ul li a {
 
     .hero-btn a {
         display: block;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 200px;
+    }
+
+    .hero-btn a {
+        display: inline-block;
         margin: 20px auto;
     }
 }
