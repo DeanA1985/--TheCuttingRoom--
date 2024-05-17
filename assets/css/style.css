@@ -171,11 +171,29 @@ nav ul li a {
     text-align: center;
 }
 
+#about .title-text h1 {
+    color: #51483d;
+    text-align: center;
+}
+
 .features {
     flex-basis: 50%;
 }
+ 
+.features h3,.features p{
+    display:flex;
+    justify-content: center;
+    margin-top:10px ;
+    
+}
 
-.text h1 {
+/* .features h3{
+    color: #423d33;
+    text-align: left;
+    margin-left: 150px;
+} */
+
+.text h2 {
     text-align: justify;
     font-weight: 600;
     margin-left: 60px;
@@ -261,7 +279,7 @@ nav ul li a {
 
 }
 
-.title-text p {
+#service .title-text h1 {
     margin: auto;
     font-size: 40px;
     font-weight: 500;
@@ -275,10 +293,9 @@ nav ul li a {
 
 }
 
-.title-text h1 {
+.service-box h2 {
     font-size: 40px;
-    text-align: left;
-    margin-left: 60px;
+    text-align: center;
     margin-top: 70px;
 }
 
@@ -404,7 +421,7 @@ hr {
 
 }
 
-.title-text team p {
+#team .title-text h1 {
 
     margin: auto;
     font-size: 40px;
@@ -502,12 +519,23 @@ hr {
     width: 100%;
     padding: 70px 0;
     background: url("../img/slide-2.jpg") no-repeat center/cover;
+    /* display: flex;
+    /* justify-content: center;
+    flex-direction: column;
+    text-align: center; */ 
+    
+    
     
     
 }
 
-#appointments p{
+#appointments .title-text h1{
     color: white;
+    text-align: center;
+    font-size: 40px;
+    
+    
+    
 }
 
 
@@ -541,7 +569,7 @@ form h2 {
     color: #fff;
 }
 
-form h5{
+form h4{
     padding-bottom: 2px;
     margin-top: 2px;
     margin-bottom: 10px;
