@@ -143,7 +143,7 @@ nav ul li a {
         margin: 20px auto;
     }
 }
-
+/* Smaller screens - logo resizing */
 @media screen and (max-width: 320px) {
     .logo {
         width: 200px;
@@ -174,6 +174,7 @@ nav ul li a {
 #about .title-text h1 {
     color: #51483d;
     text-align: center;
+    font-size: 40px;
 }
 
 .features {
@@ -186,12 +187,6 @@ nav ul li a {
     margin-top:10px ;
     
 }
-
-/* .features h3{
-    color: #423d33;
-    text-align: left;
-    margin-left: 150px;
-} */
 
 .text h2 {
     text-align: justify;
@@ -247,10 +242,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 768px) {
-    .title-text h1 {
-        font-size: 35px;
-    }
-
+   
     .features {
         flex-basis: 100%;
     }
@@ -263,15 +255,12 @@ nav ul li a {
         width: 70%;
     }
 
-    .text h1 {
+    /* .text h1 {
         text-align: initial;
-    }
+    } */
 }
 
-
-
 /*--SERVICES---*/
-
 
 .title-text {
     text-align: center;
@@ -387,7 +376,6 @@ hr {
 
     .service-desc p {
         font-size: 12px;
-
     }
 
     hr {
@@ -399,25 +387,11 @@ hr {
     }
 }
 
-/*--TEAM---*/
-
+/*--OUR BARBERS---*/
 
 #team {
     width: 100%;
     padding: 70px 0;
-
-
-}
-
-.info h4 {
-
-    font-weight: 300;
-
-}
-
-.info p {
-    font-size: 15px;
-
 
 }
 
@@ -434,8 +408,6 @@ hr {
     display: inline-block;
     padding-bottom: 30px;
 }
-
-
 
 
 /* Team Cards Section Styles */
@@ -513,19 +485,12 @@ hr {
     }
 }
 
-/*APPOINTMENTS*/
+/*BOOKING*/
 
 #appointments{
     width: 100%;
     padding: 70px 0;
-    background: url("../img/slide-2.jpg") no-repeat center/cover;
-    /* display: flex;
-    /* justify-content: center;
-    flex-direction: column;
-    text-align: center; */ 
-    
-    
-    
+    background: url("../img/slide-2.jpg") no-repeat center/cover;   
     
 }
 
@@ -533,11 +498,8 @@ hr {
     color: white;
     text-align: center;
     font-size: 40px;
-    
-    
-    
+         
 }
-
 
 .form-wrapper {
     margin: 0 auto;
@@ -551,15 +513,12 @@ hr {
     border: 1px dotted white;
 }
 
-
 form {
     
     /* max-height: fit-content; */
     text-align: center;
     padding: 8px;
     color: white;
-
-
 }
 
 form h2 {
@@ -574,7 +533,6 @@ form h4{
     margin-top: 2px;
     margin-bottom: 10px;
 }
-
 
 form .btn{
 
@@ -591,11 +549,6 @@ form .btn{
     margin-top: 50px;
     transition: background-color 0.5s ease, color 0.5s ease;
     cursor: pointer;
-
-
-
-    /* display: block; */
-
 }
 
 form.btn :hover{
@@ -613,8 +566,6 @@ form.btn :hover{
         gap: 16px;
         flex-wrap: wrap;
     }
-
-
 }
 
 /* footer */
