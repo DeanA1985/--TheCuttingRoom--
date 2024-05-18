@@ -171,7 +171,7 @@ nav ul li a {
     text-align: center;
 }
 
-#about .title-text h1 {
+.title-text h1 { 
     color: #51483d;
     text-align: center;
     font-size: 40px;
@@ -283,7 +283,7 @@ nav ul li a {
 }
 
 .service-box h2 {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     margin-top: 70px;
 }
