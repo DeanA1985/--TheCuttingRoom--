@@ -365,8 +365,8 @@ hr {
 .single-service:hover .service-desc {
     bottom: 30%;
     opacity: 1;
-
 }
+
 
 @media screen and (max-width: 768px) {
     .single-service {
@@ -384,6 +384,19 @@ hr {
 
     .single-service:hover .service-desc {
         bottom: 40% !important;
+    }
+}
+/* Service cards text to always be visible smaller screens for accessibility reasons */
+@media (max-width: 430px) {
+    .service-desc {
+        bottom: 30%;
+        opacity: 1;
+    }
+    .single-service:hover .service-desc {
+        bottom: 30% !important;
+    }
+    .overlay {
+        opacity: 1;
     }
 }
 
