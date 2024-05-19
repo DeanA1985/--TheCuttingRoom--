@@ -386,7 +386,7 @@ hr {
         bottom: 40% !important;
     }
 }
-/* Service cards text to always be visible smaller screens for accessibility reasons */
+/* Remove the hover on small screens */
 @media (max-width: 430px) {
     .service-desc {
         bottom: 30%;
@@ -498,7 +498,7 @@ hr {
     }
 }
 
-/*BOOKING*/
+/*BOOKINGS*/
 
 #appointments{
     width: 100%;
