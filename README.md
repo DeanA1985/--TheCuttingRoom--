@@ -1,110 +1,161 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Cutting Room
 
-Welcome Dean Akpabio,
+The Cutting Room is a website made for a fictitious barbershop in London. The intended target for the website are men ages 18 to 30.
+Men who are looking for haircut.
+ 
+ The main aim of the website is to convert the user to a potential customer by giving them information of the service that they require and then make a booking with a barber. There are various points are the page for them to do so. But one dedicated area of the website which has a booking form.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ ![Responsive Mockup](/assets/img/Responsive%20Viewport%20.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Side Navigation
 
-`python3 -m http.server`
+- The website does not have a horizontal navigation bar instead it has a side navigation that is represented by a Hamburger icon.
 
-A blue button should appear to click: _Make Public_,
+![Hamburger Icon](/assets/img/Side%20Navigation%20.png)
 
-Another blue button should appear to click: _Open Browser_.
+I have styled it this way
+To not take away from the hero image. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- When the side navigation is not in use the hamburger icon stays on screen in the right hand corner of the screen, so if the user intends to go to a specific section they can either scroll using their mouse or they can click on the icon could pull the menu out which will slide right from the corner of their screen. Clicking any section will make the side navigation slide back in.
 
-A blue button should appear to click: _Make Public_,
+The function of this menu works using JavaScript and was taken from W3C Schools.
 
-Another blue button should appear to click: _Open Browser_.
+![Side Menu](/assets/img/Side%20Navigation%20Menu.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Hero Section (HOME)
 
-To log into the Heroku toolbelt CLI:
+![hero section](/assets/img/Hero%20Section.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The hero section is the main focal point for a visitor of the website. The main image is a barber shop room with a man sitting in chair. The rest of the website 
+Follows a consistent color theme of dark to light colors to keep up with the theme of the hero image. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- The hero also features two buttons which may be hard to see at first (this has been considered for accessibility however a hover feature as been applied to the buttons in CSS).
 
-------
+![hero section with buttons](/assets/img/Hero%202.png)
 
-## Release History
+#### -Find Your Style
+#### -Book Here 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- These are linked to sections of the website in which the user can do the following actions find the service that they are looking for whether this be a hair cut, beard trim, dry shampoo. And Book Here in which the user can book their haircut with one of the three barbers featured on the website.
 
-**September 20 2023:** Update Python version to 3.9.17.
+## About Us  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![About Us](/assets/img/About%20Us.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The about us section is the second option on the side navigation. This area of the website points out the reasons why someone should choose the Cutting Room
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- The icon is featured alongside a paragraph of text, this part of the website is mainly information based requiring the user to fo more reading. The rest of the website sections are purely interactive.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Services
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Services](/assets/img/Services.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- The Services section features four images. When a mouse hovers over the image a short description appears over the image with e gradient overlay background this has been done to evoke a positive emotion from the user. The hover has been removed if the website is viewed on smaller devices for accessibility issues
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Our Barbers 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Our Barbers](/assets/img/Our%20Barbers.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- This section of the website features three image cards; three barbers each have a make booking button underneath them which is has a hover effect the button changes color when the cursor is over it.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Bookings 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Bookings](/assets/img/Booking%20Form%20.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- This section of the website features a booking form with various input fields for a customer to make a potential booking with one of the three barbers. The form starts off stating the opening times of the barber shop and then proceeds for the user to input their details; Name, Email, Date, Time and then the option to select a Barber 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Footer 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Footer](/assets/img/Footer.png)
 
-------
+- The footer contains four links to the social media platforms Facebook, Twitter, Youtube and Instagram.
 
-## FAQ about the uptime script
+## Testing 
 
-**Why have you added this script?**
+I have tested that the site works well across different browsers. Firefox, Safari, Chrome
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+It also responds well when viewed on different devices. Some features such as hover effects are disabled on these devices.
 
-**How will this affect me?**
+## Validator Testing 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### HTML
+- No Errors were returned when passing through the official W3C validator.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Click for Results in html validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdeana1985.github.io%2F--TheCuttingRoom--%2F)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![html pass](/assets/img/html%20pass.png)
 
-**So….?**
+### CSS 
+- No errors were returned when passing through the official (Jigsaw) validator.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+[Click for Results in CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeana1985.github.io%2F--TheCuttingRoom--%2F)
 
-**Can I opt out?**
+![css pass](/assets/img/css%20pass.png)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Lighthouse Dev Tools
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+ ## Desktop
 
-**Anything more?**
+- The website scored 93% at Performance on Desktop with 100% in accessibility according to lighthouse Dev Tools
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![lighthouse results](/assets/img/Lighthouse%20Desktop%20Performance.png)
 
----
+## Mobile
 
-Happy coding!
+- The website scored 78% at Performance on Mobile with 100% in accessibility according to lighthouse Dev Tools
+
+![lighthouse mobile results](/assets/img/Lighthouse%20Mobile%20Performance.png)
+
+## Wave Accessibility (Web accesibility evaluation tool)
+
+[Click for Results in WAVE](https://wave.webaim.org/report#/https://deana1985.github.io/--TheCuttingRoom--/)
+
+# Resolved Issues
+
+## Images
+
+I noticed that when I deployed my website some links to images did not work. I fixed this by naming images correctly and deleting any spaces in filenames.
+
+I decided to place my images within their own folder kept within another folder named assets.
+
+"/assets/img/filename"
+
+## Mainlogo - The Cutting Room
+
+- This was taking up alot of real estate on the hero section of the website, when scaled down to mobile devices was causing issues. I scaled the logo down to a smaller pixel size in a media query which solved problems with other elements of the page being clipped as you can see in the image below the side navigation had been effected as a result of the logo being a certain size. 
+
+![logo issues](/assets/img/Responsive%20Design%20Issues_1.png)
+
+ ## Service Cards
+
+-  Another issue was the Service section when viewing the website on smaller screen widths the service description text would not show which would prove to be useless as users would not be able to read the service information. I added a media query for screens of a maximum width of 430px that removed the CSS hover feature and displayed the text with a gradient overlay over the image to distinguish the text from any obscurring background colours.
+
+![servicedescription](/assets/img/services%20description.png)
+
+## Unfixed Bugs
+
+- There are no outstanding bugs to date.
+
+# Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+  The live link can be found here - https://deana1985.github.io/--TheCuttingRoom--/
+
+  ## Media
+
+- The photos used in the website are from This Open Source site - https://www.pexels.com/ with credit to Pavel Danilyuk
+
+## Content
+
+- The icons in the about us section andfooter were taken from [Font Awesome](https://fontawesome.com/)
+- The code for the footer was taken from the CI LoveRunning Project.
